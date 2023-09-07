@@ -7,6 +7,51 @@ body {
   letter-spacing: 0.02em;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.contacts-menu {
+  display: flex;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 a {
   text-decoration: none;
 }
@@ -34,6 +79,8 @@ span {
 }
 
 .nav-link {
+  display: inline-block;
+  padding: 24px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -48,6 +95,7 @@ span {
 }
 
 .contacts-link {
+  padding: 24px 24px 40px;
   color: #434455;
   font-style: normal;
 }
@@ -61,11 +109,11 @@ address {
   font-style: normal;
 }
 
-.section-one {
+.hero-image {
   background-color: #2e2f42;
 }
 
-.section-one-title {
+.hero-image-title {
   color: #ffffff;
   font-size: 56px;
   text-align: center;
@@ -80,6 +128,9 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button-primary:hover,
@@ -87,7 +138,13 @@ address {
   background: var(--OCEAN, #404bbf);
 }
 
-.section-two-subtitle {
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section-one-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -95,15 +152,15 @@ address {
   color: #2e2f42;
 }
 
-.section-two-text {
+.section-one-text {
   font-weight: 400;
 }
 
-.section-three {
+.section-two {
   background-color: #f4f4fd;
 }
 
-.section-three-title {
+.section-two-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -129,13 +186,13 @@ address {
   font-weight: 400;
 }
 
-.section-four-title {
+.section-three-title {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
 }
 
-.section-four-subtitle {
+.section-three-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
