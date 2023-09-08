@@ -80,6 +80,7 @@ span {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -112,6 +113,7 @@ address {
 
 .hero-image {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-image-title {
@@ -120,6 +122,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.07;
+  max-width: 496px;
 }
 
 .button-primary {
@@ -132,6 +135,10 @@ address {
   margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button-primary:hover,
