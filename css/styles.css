@@ -36,6 +36,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-inner {
@@ -50,7 +51,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
   margin-right: 76px;
 }
 
@@ -62,22 +62,26 @@ span {
   color: #2e2f42;
 }
 
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  align-items: center;
+  gap: 40px;
 }
 
 .nav-link {
   display: inline-block;
-  padding: 24px 24px;
+  padding: 24px 0 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  gap: 40px;
 }
 
 .nav-link:hover,
