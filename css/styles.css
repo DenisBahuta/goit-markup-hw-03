@@ -164,7 +164,7 @@ img {
 }
 
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-one-subtitle {
@@ -182,6 +182,7 @@ img {
 
 .section-two {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-two-title {
@@ -192,6 +193,18 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.hero {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container-hero {
+  padding: 32px 0;
 }
 
 .hero-background {
@@ -204,10 +217,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .hero-text {
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
 .section-three-title {
