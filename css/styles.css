@@ -164,7 +164,7 @@ address {
 }
 
 .advantages-item {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-two-subtitle {
@@ -205,7 +205,7 @@ address {
 
 .hero-background {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
