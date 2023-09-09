@@ -253,7 +253,7 @@ img {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 48) / 3);
+  flex-basis: calc(100% - 48) / 3;
 }
 
 .container-category {
