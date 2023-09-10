@@ -33,6 +33,10 @@ ul {
   align-items: center;
 }
 
+.header-inner {
+  display: flex;
+}
+
 span {
   color: #2e2f42;
 }
