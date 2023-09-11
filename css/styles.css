@@ -1,14 +1,15 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 a {
   text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 ul {
@@ -16,6 +17,21 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Header */
@@ -50,7 +66,7 @@ span {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -73,7 +89,6 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-right: 40px;
   padding: 24px 0;
 }
 
@@ -91,7 +106,7 @@ span {
 }
 
 .contacts-link {
-  padding: 24px 24px 40px;
+  padding: 24px 0;
   color: #434455;
   font-style: normal;
 }
@@ -213,12 +228,6 @@ address {
   background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .container-hero {
